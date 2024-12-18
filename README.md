@@ -17,8 +17,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics
 ```
 4)Скачать с репозитория файл "best.pt" из папки "Model" данного репозитория и сохранить его себе на устройствое(путь к нему нам понадобиться в следующем шаге). <br>
-5)
-6)Нужно прописать следующие команды: <br>
+5)Нужно прописать следующие команды: <br>
 ```console
 from ultralytics import YOLO
 model = YOLO(r"<Model addres>") #Model addres - путь к сохраненной модели
