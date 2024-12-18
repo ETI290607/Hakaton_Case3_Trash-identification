@@ -19,6 +19,6 @@ conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cu
 4)Послеь установки всех пакетов нужно прописать следующие команды: <br>
 ```console
 from ultralytics import YOLO
-model = YOLO(r"C:\Users\egor2\runs\detect\train25\weights\best.pt")
+model = YOLO(r"https://github.com/ETI290607/Hakaton_Case3_Trash-identification/blob/main/Model/best.pt")
 results = model.predict(source="<Images addres>", batch=1, device=0, save=True)
 ```
