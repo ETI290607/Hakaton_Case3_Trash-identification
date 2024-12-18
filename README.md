@@ -7,16 +7,17 @@
 -Королев Даниил <br>
 ***
 # Инсталляция и запуск:
-1) Необходио по гиперссылкам установить дистрибутив [Anaconda](https://www.anaconda.com/download/success), программно-аппаратную архитектуру [CUDAv1.18](https://developer.nvidia.com/cuda-11-8-0-download-archive) и пакет PyTorch следующей командой в приложении Anaconda Prompt:<br>
+1)Скачать с репозитория файл "best.pt" из папки "Model" данного репозитория и сохранить его себе на устройствое(путь к нему нам понадобиться в следующем шаге). <br>
+2) Необходио по гиперссылкам установить дистрибутив [Anaconda](https://www.anaconda.com/download/success), программно-аппаратную архитектуру [CUDAv1.18](https://developer.nvidia.com/cuda-11-8-0-download-archive) и пакет PyTorch следующей командой в приложении Anaconda Prompt:<br>
 ```console
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
-2) Открыть Anaconda Navigator, перейти в менеджер виртуальных сред (кнопка Environments), запустить среду Base (root) (нажать на кнопку, в открывшемся меню нажать "Open with Python").<br>
-3) В открывшемся окне надо установить необходимые пакеты следующей командой: <br>
+3) Открыть Anaconda Navigator, перейти в менеджер виртуальных сред (кнопка Environments), запустить среду Base (root) (нажать на кнопку, в открывшемся меню нажать "Open with Python").<br>
+4) В открывшемся окне надо установить необходимые пакеты следующей командой: <br>
 ```console
 conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics
 ```
-4)Скачать с репозитория файл "best.pt" из папки "Model" данного репозитория и сохранить его себе на устройствое(путь к нему нам понадобиться в следующем шаге). <br>
+
 5)Нужно прописать следующие команды: <br>
 ```console
 from ultralytics import YOLO
