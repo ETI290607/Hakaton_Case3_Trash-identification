@@ -7,7 +7,7 @@
 -Королев Даниил <br>
 ***
 # Инсталляция и запуск:
-1)Скачать с репозитория файл "best.pt" из папки "Model" данного репозитория и сохранить его себе на устройствое(путь к нему нам понадобиться в одном из следующих шагов). <br>
+1)Скачать файл "best.pt" из папки "Model" данного репозитория и сохранить его себе на устройство (путь к нему нам понадобиться в одном из следующих шагов). <br>
 2) Необходио по гиперссылкам установить дистрибутив [Anaconda](https://www.anaconda.com/download/success), программно-аппаратную архитектуру [CUDAv1.18](https://developer.nvidia.com/cuda-11-8-0-download-archive) и пакет PyTorch следующей командой в приложении Anaconda Prompt:<br>
 ```console
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
