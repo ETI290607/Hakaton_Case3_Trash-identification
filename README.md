@@ -22,5 +22,5 @@ conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cu
 ```console
 from ultralytics import YOLO
 model = YOLO(r"<Model addres>") #Model addres - путь к сохраненной модели
-results = model.predict(source="<Images addres>", batch=1, device=0, save=True) #Image addres - путь к папке с датасетом (фото для обработки)
+results = model.predict(source="<Images addres>", batch=1, device=0, save=True) #Image addres - путь к папке с датасетом (фотографиями для обработки)
 ```
